@@ -79,6 +79,20 @@ containsDuplicates(){
   return false
 }
 
+getLast(){
+  let currentNode = this.head.next //next node
+  while(currentNode.next !== null){//if the next node isnt empty, go onto next node
+    currentNode = currentNode.next
+  }
+  return currentNode
+}
+
+
+
+
+
+
+
 
 }
 // const consoleLog = new LinkedList()
